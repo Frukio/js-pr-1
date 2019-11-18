@@ -13,7 +13,7 @@ describe('ДЗ 1 - функции', () => {
     describe('returnFirstArgument', () => {
         it('должна возвращать переданный аргумент', () => {
             let value = random();
-            let result = returnFirstArgument(value);
+            let result = returnFirstArgument();
 
             assert.strictEqual(result, value);
         });
